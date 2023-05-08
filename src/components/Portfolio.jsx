@@ -11,7 +11,6 @@ function Portfolio(){
                     <PortfolioItem
                     imgUrl={project.imgUrl}
                     title={project.title}
-                    text={project.text}
                     stack={project.stack}
                     link={project.link}
                     />
