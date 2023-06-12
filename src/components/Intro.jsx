@@ -17,7 +17,7 @@ function Intro(){
         via via-black        
         to-blue-900">
           
-                 <img class="rounded-full" src="/profile.png" alt="user image" />
+            <img className="rounded-full" src="/assets/profile.png" alt="user image" />
             <h1 className="text-4xl md:text-7xl text-white mb-1 md:mb-3 font-bold">Hello!</h1>
             <p className="text-md text-white max-w-xl mb-6 font-bold">My name is Simon and I'm pursuing a degree in Software Engineering and Computer Science at Linköpning University. 
             I'm enthusiastic about music, web development and artificial intelligence/Machine learning.
