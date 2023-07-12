@@ -1,6 +1,6 @@
-import React from "react";
+import ITimeline from "../interfaces/ITimeline";
 
-function TimelineItem({year, title, duration, details}: {year:number, title:string, duration:number, details:string}){
+function TimelineItem({year, title, duration, details}: ITimeline){
     return(
         <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
             <li className="mb-10 ml-4">

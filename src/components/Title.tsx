@@ -1,5 +1,3 @@
-import React from "react";
-
 function Title({children, id}: {children: string, id:string}){
 
     return (

@@ -1,4 +1,6 @@
-export default [
+import ITimeline from "../interfaces/ITimeline"
+
+ const data: ITimeline[] = [
     {
         year: '2023',
         title: "Master's in software engineering and computer science",
@@ -20,13 +22,11 @@ export default [
     {
         year: '2021',
         title: "Bachelor's in computer engineering",
-        duration: '3 years',
-        details: ''
     },
     {
         year: '1996',
         title: "Born",
-        duration: '',
-        details: ''
     },
 ]
+
+export default data
