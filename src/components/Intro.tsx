@@ -1,5 +1,3 @@
-import React from "react";
-
 import SouthIcon from '@mui/icons-material/South';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -7,7 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 function Intro(){
     const scrollToBottom = () => {
         var element = document.getElementById("portfolio");
-        element.scrollIntoView({behavior: "smooth"});
+        element?.scrollIntoView({behavior: "smooth"});
 
       };
 
@@ -26,7 +24,7 @@ function Intro(){
             <LinkedInIcon onClick={event =>  window.location.href='https://www.linkedin.com/in/simon-jakobsson-871252144/'} fontSize="large"/>
             <GitHubIcon onClick={event =>  window.location.href='https://github.com/Znarvl'} fontSize="large"/>
             </div>
-        <div class="animate-bounce w-6 h-6 text-white absolute bottom-7 scroll-smooth">
+        <div className="animate-bounce w-6 h-6 text-white absolute bottom-7 scroll-smooth">
             <div onClick={scrollToBottom}>
             <SouthIcon  fontSize="large"/>
             </div>

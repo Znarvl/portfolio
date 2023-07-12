@@ -1,6 +1,6 @@
 import React from "react";
 
-function Title({children, id}){
+function Title({children, id}: {children: string, id:string}){
 
     return (
        <h1
