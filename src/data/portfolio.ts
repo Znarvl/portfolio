@@ -1,4 +1,5 @@
-export default [
+import Iportfolio from '../interfaces/IPortfolio'
+const data: Iportfolio[] = [
     {
         title: 'Portfolio',
         imgUrl: '/portfolio/assets/portfolio.png',
@@ -19,3 +20,4 @@ export default [
         link: 'https://github.com/Znarvl/TDDE16_project'
     }
 ]
+export default data
