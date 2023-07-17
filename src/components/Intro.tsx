@@ -1,5 +1,5 @@
 import SouthIcon from '@mui/icons-material/South';
-import Header from './Header';
+import Header from './Navigation';
 
 
 function Intro(){

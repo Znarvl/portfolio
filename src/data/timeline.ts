@@ -9,22 +9,24 @@ import ITimeline from "../interfaces/ITimeline"
     },
     {
         year: 'Autumn 2023',
-        title: "Final thesis",
+        title: "Master's thesis",
         duration: '4 months',
-        details: 'Final thesis at KnowIT'
+        details: "Master's thesis at KnowIT"
     },
     {
         year: 'Summer 2023',
         title: "Internship at Maxar Technologies",
         duration: '3 months',
-        details: 'Summer internship with front-end development in cesium'
+        details: 'Summer internship with fullstack development in React.js and GeoDjango'
     },
     {
-        year: '2021',
+        year: 'Summer 2021',
         title: "Bachelor's in computer engineering",
+        duration: '3 years',
+
     },
     {
-        year: '1996',
+        year: '1996-03-25',
         title: "Born",
     },
 ]

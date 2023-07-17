@@ -18,6 +18,13 @@ const data: Iportfolio[] = [
         imgUrl: '/portfolio/assets/uni_courses.png',
         stack: ['C/C++', 'Python', 'Java','R', 'And much more'],
         link: 'https://github.com/Znarvl/TDDE16_project'
+    },
+        {
+        title: 'Travel with beer',
+        imgUrl: '/portfolio/assets/uni_courses.png',
+        stack: ['JS/TS', 'Python', 'Vue', 'Djangi'],
+        link: 'https://github.com/Znarvl/TDDE16_project',
+        text: 'fadsdasfa'
     }
 ]
 export default data

@@ -17,11 +17,7 @@ function TimelineItem({year, title, duration, details}: ITimeline){
             <p className="my-2 text-base font-normal text-stone-500">
                 {details}
             </p>
-
-
             </li>
-
-
         </ol>
 
     )
