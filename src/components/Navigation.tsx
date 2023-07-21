@@ -6,7 +6,7 @@ const Navigation = () => {
     element?.scrollIntoView({ behavior: 'smooth' });
   };
   return (
-    <header className="text-white text-lg font-bold pt-5 flex flex-row-reverse pr-10">
+    <header className="text-white text-lg font-bold pt-5 flex flex-row-reverse pr-12">
       
       <nav>
         <a href='#projects' onClick={(event) => handleScroll(event, 'portfolio')} className="mr-4">projects</a>

@@ -2,13 +2,14 @@ import IPortfolio from "../interfaces/IPortfolio";
 
 function PortfolioItem({ title, imgUrl, stack, link, text }: IPortfolio) {
   return (
-    <div className="border-2 border-stone-900 rounded-md overflow-hidden">
+    <div className="border-2 border-stone-900 rounded-md overflow-hidden shadow-2xl max-w-sm">
       <img
         src={imgUrl}
         alt="port"
-        className="w-full h-36 md:h-48 object-cover cursor-pointer"
+        className="w-full h-36 md:h-48 object-cover"
+        unselectable="on"
       />
-      <div className="w-full p-4 flex flex-col">
+      <div className="w-full p-4 flex flex-col ">
         <div className="md:text-x1 mb-2 md:mb-3 flex items-center justify-between">
           <h3 className="text-lg md:text-x1 mb-2 md:mb-3 font-semibold">{title}</h3>
           <a
@@ -18,6 +19,7 @@ function PortfolioItem({ title, imgUrl, stack, link, text }: IPortfolio) {
             Repo
           </a>
         </div>
+        <span className="mb-2">{text}</span>
         <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
           {stack.map((item, index) => (
             <span
@@ -28,8 +30,7 @@ function PortfolioItem({ title, imgUrl, stack, link, text }: IPortfolio) {
             </span>
           ))}
         </p>
-      <span className="my-2">{text}</span>
-
+  
       </div>
     </div>
   );
