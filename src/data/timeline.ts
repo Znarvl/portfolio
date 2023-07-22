@@ -1,27 +1,50 @@
 import ITimeline from "../interfaces/ITimeline"
 
- const data: ITimeline[] = [
+ const timeline: ITimeline[] = [
     {
         year: '2023',
-        title: "Master's in software engineering and computer science",
+        title: "Master's in SE and CS",
         duration: '2 years',
-        details: 'With orientation in large-scale software development'
+        details: 'With orientation in large-scale software development',
+        at: 'Linköping University'
     },
     {
         year: 'Autumn 2023',
-        title: "Final thesis",
+        title: "Master's thesis",
         duration: '4 months',
-        details: 'Final thesis at KnowIT'
+        at: "KnowIT"
     },
     {
         year: 'Summer 2023',
-        title: "Internship at Maxar Technologies",
+        title: "Internship",
         duration: '3 months',
-        details: 'Summer internship with front-end development in cesium'
+        details: 'Summer internship with fullstack development in React.js and GeoDjango',
+        at: 'Maxar Technologies'
     },
     {
         year: '2021',
         title: "Bachelor's in computer engineering",
+        duration: '3 years',
+        at: 'Linköping University'
+
+    },
+        {
+        year: '2017',
+        title: "Introduction to Information systems",
+        duration: '1 semester',
+        details: 'An introduction to Information systems, changed programme to SE after one semester',
+        at: 'Lund University'
+
+    },
+        {
+        year: '2015',
+        title: "High school diploma",
+        duration: '3 years',
+        at: 'Bladins Gymnasium',
+        details: 'Social Science programme',
+
+
+
     },
     {
         year: '1996',
@@ -29,4 +52,4 @@ import ITimeline from "../interfaces/ITimeline"
     },
 ]
 
-export default data
+export default timeline

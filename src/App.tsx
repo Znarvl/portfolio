@@ -1,8 +1,9 @@
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import Timeline from "./components/Timeline";
 import Portfolio from "./components/Portfolio";
+import Tools from "./components/Tools";
+import Languages from "./components/Languages";
 
 function App() {
 
@@ -10,8 +11,9 @@ function App() {
     <div className="App">
       <Intro />
       <Portfolio />
+      <Tools />
+      <Languages />
       <Timeline />
-      <Contact />
       <Footer />
     </div>
   )
