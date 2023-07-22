@@ -32,6 +32,10 @@ import ITools from "../interfaces/ITools"
         imgUrl: '/portfolio/assets/icons8-flask.svg',
         text: 'Flask'
     },
+                        {
+        imgUrl: '/portfolio/assets/django-logo.svg',
+        text: 'Django'
+    },
                     {
         imgUrl: '/portfolio/assets/icons8-mongodb.svg',
         text: 'Mongo'
@@ -44,14 +48,26 @@ import ITools from "../interfaces/ITools"
         imgUrl: '/portfolio/assets/pytorch-icon.svg',
         text: 'Pytorch'
     },
-    
-
-
-
-
-
-
-
+                            {
+        imgUrl: '/portfolio/assets/Godot.svg',
+        text: 'Godot'
+    },
+                                {
+        imgUrl: '/portfolio/assets/Slurm_logo.svg',
+        text: 'Slurm'
+    },
+                                    {
+        imgUrl: '/portfolio/assets/pandas.svg',
+        text: 'Pandas'
+    },
+                                    {
+        imgUrl: '/portfolio/assets/numpy.svg',
+        text: 'Numpy'
+    },
+                                        {
+        imgUrl: '/portfolio/assets/Scikit.svg',
+        text: 'Scikitlearn'
+    },
 
 ]
 
