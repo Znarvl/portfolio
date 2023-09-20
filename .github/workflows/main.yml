@@ -37,10 +37,11 @@ jobs:
 
   build:
     needs: setup # Wait for the setup job to complete
-    runs-on: ubuntu-latest
     steps:
       - name: Build
-        run: npm run build
+        run:
+         npm install
+         npm run build
       - name: Check if build succeeded
         run: |
           if [ -d "dist" ]; then
