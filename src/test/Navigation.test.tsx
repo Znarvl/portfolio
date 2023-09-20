@@ -5,6 +5,6 @@ import Navigation from '../components/Navigation'
 describe('App', () => {
   it('Vite to be in document', () => {
     render(<Navigation />)
-    expect(screen.getByText('poop')).toBeInTheDocument()
+    expect(screen.getByText('Projects')).toBeInTheDocument()
   })
 })
