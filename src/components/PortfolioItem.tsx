@@ -1,13 +1,12 @@
-import IPortfolio from "../interfaces/IPortfolio";
+import type IPortfolio from '../interfaces/IPortfolio'
 
-function PortfolioItem({ title, imgUrl, stack, link, text }: IPortfolio) {
+const PortfolioItem: React.FC<IPortfolio> = ({ title, imgUrl, stack, link, text }: IPortfolio) => {
   return (
     <div className="border-2 border-stone-900 rounded-md overflow-hidden shadow-2xl max-w-sm">
       <img
         src={imgUrl}
         alt="port"
-        className="w-full h-36 md:h-48 object-cover"
-        unselectable="on"
+        className="w-full h-36 md:h-48 object-cover select-none"
       />
       <div className="w-full p-4 flex flex-col ">
         <div className="md:text-x1 mb-2 md:mb-3 flex items-center justify-between">
@@ -30,10 +29,10 @@ function PortfolioItem({ title, imgUrl, stack, link, text }: IPortfolio) {
             </span>
           ))}
         </p>
-  
+
       </div>
     </div>
-  );
+  )
 }
 
-export default PortfolioItem;
+export default PortfolioItem

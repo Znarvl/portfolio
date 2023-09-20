@@ -1,10 +1,10 @@
-import portfolio from "../data/portfolio";
-import PortfolioItem from "./PortfolioItem";
-import Title from "./Title";
+import portfolio from '../data/portfolio'
+import PortfolioItem from './PortfolioItem'
+import Title from './Title'
 
-function Portfolio() {
+const Portfolio: React.FC = () => {
   return (
-    
+
     <div id="portfolio" className="flex flex-col items-center justify-center my-5">
         <div className='w-full md:w-7/12'>
       <Title orientation='left' id="2">Projects</Title>
@@ -24,7 +24,7 @@ function Portfolio() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Portfolio;
+export default Portfolio

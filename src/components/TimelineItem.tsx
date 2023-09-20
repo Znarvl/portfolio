@@ -1,7 +1,6 @@
-import React from "react";
-import ITimeline from "../interfaces/ITimeline";
+import type ITimeline from '../interfaces/ITimeline'
 
-function TimelineItem({ year, title, duration, details, at }: ITimeline) {
+const TimelineItem: React.FC<ITimeline> = ({ year, title, duration, details, at }: ITimeline) => {
   return (
     <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
       <li className="mb-10 ml-4">
@@ -9,12 +8,12 @@ function TimelineItem({ year, title, duration, details, at }: ITimeline) {
         <div className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
           <span className="inline-block px-2 py-1 font-semibold text-white bg-stone-900 rounded-md">{year}</span>
           <h3 className="text-lg font-semibold text-stone-900 mr-2">{title}</h3>
-          {duration && (
+          {(duration != null) && (
             <div className="my-1 text-sm font-normal leading-none text-stone-400 ">
               {duration}
             </div>
           )}
-          {at && (
+          {(at != null) && (
             <>
               <div className="w-1.5 h-1.5 bg-stone-500 rounded-full" />
               <div className="text-sm font-normal leading-none text-stone-400">
@@ -26,7 +25,7 @@ function TimelineItem({ year, title, duration, details, at }: ITimeline) {
         <p className="my-2 text-base font-normal text-stone-500">{details}</p>
       </li>
     </ol>
-  );
+  )
 }
 
-export default TimelineItem;
+export default TimelineItem

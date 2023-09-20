@@ -1,12 +1,12 @@
-import tools from "../data/tools";
-import Title from "./Title";
-import ToolsItem from "./ToolsItem";
+import tools from '../data/tools'
+import Title from './Title'
+import ToolsItem from './ToolsItem'
 
-function Tools() {
+const Tools: React.FC = () => {
   return (
     <div id="tools" className="flex flex-col md:flex-row justify-center mt-20 w-full">
       <div className="w-full md:w-7/12 ">
-        <Title orientation="right" id={"4"}>Tools I use</Title>
+        <Title orientation="right" id={'4'}>Tools I use</Title>
         <div/>
         <div className="flex flex-wrap justify-center gap-2">
           {tools.map((item, index) => (
@@ -20,7 +20,7 @@ function Tools() {
         </div>
     </div>
     </div>
-  );
+  )
 }
 
-export default Tools;
+export default Tools
