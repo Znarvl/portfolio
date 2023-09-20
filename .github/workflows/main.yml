@@ -51,6 +51,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18  # You can change this to your desired Node.js version
+      - name: Install dependencies
+        run: npm install
 
       - name: Run tests
         run: npm test
