@@ -3,7 +3,7 @@ const data: Iportfolio[] = [
   {
     title: 'Portfolio',
     imgUrl: '/portfolio/assets/portfolio.png',
-    stack: ['TypeScript', 'TailwindCSS', 'React'],
+    stack: ['TypeScript', 'TailwindCSS', 'React', 'DevOps'],
     link: 'https://github.com/Znarvl/portfolio',
     text: 'This portfolio!'
   },
