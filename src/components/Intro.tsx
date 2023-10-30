@@ -12,7 +12,7 @@ const Intro: React.FC = () => {
             <img className="rounded-full" src="/portfolio/assets/profile.png" alt="user image" />
             <h1 className="text-4xl md:text-7xl text-white mt-8 md:mb-3 font-bold">Hello!</h1>
             <p className="text-md text-white max-w-xl mb-6 font-bold">My name is Simon and I&rsquo;m pursuing a degree in Software Engineering and Computer Science at Linköpning University.
-            I&rsquo;m enthusiastic about music, web development and artificial intelligence/Machine learning.
+            I&rsquo;m enthusiastic about music, web development and artificial intelligence/machine learning.
              In my free time, I&rsquo;m tinkering with web development and small machine learning project, or playing music.  </p>
         </div>
         </div>

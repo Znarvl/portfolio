@@ -14,7 +14,7 @@ const Languages: React.FC = () => {
               key={index}
               className="w-24 h-24 flex items-center justify-center"
             >
-              <ToolsItem index={index} imgUrl={item.imgUrl} text={item.text} />
+              <ToolsItem imgUrl={item.imgUrl} text={item.text} />
             </div>
           ))}
         </div>

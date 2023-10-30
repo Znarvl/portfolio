@@ -1,5 +1,4 @@
 interface ITools {
-  index: number
   imgUrl: string
   text: string
 }

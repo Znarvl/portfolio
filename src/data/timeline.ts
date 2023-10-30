@@ -12,6 +12,8 @@ const timeline: ITimeline[] = [
     year: 'Autumn 2023',
     title: "Master's thesis",
     duration: '4 months',
+    details: 'Currently researching the implementation of DevOps strategies and knowledge management techniques to enhance information retention within internal projects',
+
     at: 'KnowIT'
   },
   {
