@@ -1,6 +1,6 @@
 import type ITimeline from '../interfaces/ITimeline'
 
-const TimelineItem: React.FC<ITimeline> = ({ year, title, duration, details, at }: ITimeline) => {
+const TimelineItem: React.FC<ITimeline> = ({ year, title, duration, details, at, url }: ITimeline) => {
   return (
     <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
       <li className="mb-10 ml-4">
@@ -22,6 +22,13 @@ const TimelineItem: React.FC<ITimeline> = ({ year, title, duration, details, at 
             </>
           )}
         </div>
+        {(url != null) && (
+            <>
+              <div className="my-3 text-sm font-normal leading-none text-stone-600">
+                <a href={url}>Link to thesis paper</a>
+              </div>
+            </>
+        )}
         <p className="my-2 text-base font-normal text-stone-500">{details}</p>
       </li>
     </ol>
