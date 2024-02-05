@@ -12,9 +12,9 @@ const timeline: ITimeline[] = [
     year: 'Autumn 2023',
     title: "Master's thesis",
     duration: '4 months',
-    details: 'Currently researching the implementation of DevOps strategies and knowledge management techniques to enhance information retention within internal projects',
-
-    at: 'KnowIT'
+    details: 'Researched the implementation combination of DevOps strategies and knowledge management techniques to enhance information retention within internal projects',
+    at: 'KnowIT',
+    url: 'https://www.diva-portal.org/smash/get/diva2:1826147/FULLTEXT01.pdf'
   },
   {
     year: 'Summer 2023',
@@ -28,7 +28,6 @@ const timeline: ITimeline[] = [
     title: "Bachelor's in computer engineering",
     duration: '3 years',
     at: 'Linköping University'
-
   },
   {
     year: '2017',

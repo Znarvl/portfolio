@@ -14,6 +14,7 @@ const Timeline: React.FC = () => {
                     duration = {item.duration}
                     details = {item.details}
                     at = {item.at}
+                    url = {item.url}
                     />
             ))}
             </div>
