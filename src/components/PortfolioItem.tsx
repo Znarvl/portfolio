@@ -2,7 +2,7 @@ import type IPortfolio from '../interfaces/IPortfolio'
 
 const PortfolioItem: React.FC<IPortfolio> = ({ title, imgUrl, stack, link, text }: IPortfolio) => {
   return (
-    <div className="border-2 border-stone-900 rounded-md overflow-hidden shadow-2xl max-w-sm">
+    <div data-testid="portfolio" className="border-2 border-stone-900 rounded-md overflow-hidden shadow-2xl max-w-sm">
       <img
         src={imgUrl}
         alt="port"
