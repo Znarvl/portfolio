@@ -2,6 +2,13 @@ import type ITimeline from '../interfaces/ITimeline'
 
 const timeline: ITimeline[] = [
   {
+    year: 'Mars 2024',
+    title: 'Software Developer',
+    duration: 'Ongoing',
+    details: 'C++ Adaptive AUTOSAR developer',
+    at: 'Vector Sweden'
+  },
+  {
     year: '2023',
     title: "Master's in SE and CS",
     duration: '2 years',
