@@ -1,7 +1,7 @@
-import type ITitleAlignment from '../interfaces/TitleAligntment';
+import type ITitleAlignment from '../interfaces/TitleAligntment'
 
 const Title: React.FC<ITitleAlignment> = ({ children, id, orientation }: ITitleAlignment) => {
-  const isTitleRightAligned = orientation === 'right';
+  const isTitleRightAligned = orientation === 'right'
   return (
     <h1
       id={id !== '' ? id : undefined}
@@ -11,7 +11,7 @@ const Title: React.FC<ITitleAlignment> = ({ children, id, orientation }: ITitleA
     >
       {children}
     </h1>
-  );
+  )
 }
 
-export default Title;
+export default Title
