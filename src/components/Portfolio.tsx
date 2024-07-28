@@ -10,7 +10,7 @@ const Portfolio: React.FC = () => {
       <Title orientation='left' id="2">Projects</Title>
       </div>
       <div className="flex justify-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
           {portfolio.map((project, index) => (
             <PortfolioItem
               key={index}

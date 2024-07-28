@@ -6,7 +6,7 @@ const lang: ITools[] = [
   },
   {
     imgUrl: '/portfolio/assets/C++.svg',
-    text: 'C++'
+    text: 'C++ 14/17'
   },
   {
     imgUrl: '/portfolio/assets/cs.svg',

@@ -11,7 +11,7 @@ const Intro: React.FC = () => {
         <div className='items-center justify-center flex-col text-center flex'>
             <img className="rounded-full" src="/portfolio/assets/profile.png" alt="user image" />
             <h1 className="text-4xl md:text-7xl text-white mt-8 md:mb-3 font-bold">Hello!</h1>
-            <p className="text-md text-white max-w-xl mb-6 font-bold">My name is Simon and I&rsquo;m a Software Engineering and Computer Science graduate from Linköpning University.
+            <p className="text-md text-white max-w-md sm:max-w-lg md:max-w-xl sm:mb-6 mx-4 sm:mx-auto font-bold">My name is Simon and I&rsquo;m a Software Engineering and Computer Science graduate from Linköpning University.
             I&rsquo;m enthusiastic about music, web development and artificial intelligence/machine learning.
              In my free time, I&rsquo;m tinkering with web development and small machine learning project, or playing music.  </p>
         </div>
