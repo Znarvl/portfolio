@@ -5,12 +5,12 @@ const timeline: ITimeline[] = [
     year: 'Mars 2024',
     title: 'Software Developer',
     duration: 'Ongoing',
-    details: 'C++ Adaptive AUTOSAR developer',
+    details: 'C++ Adaptive AUTOSAR development with a focus on the Transport Layer and JSON parsing',
     at: 'Vector Sweden'
   },
   {
     year: '2023',
-    title: "Master's in SE and CS",
+    title: "Master's in Software Engineering and Computer Science",
     duration: '2 years',
     details: 'With orientation in large-scale software development',
     at: 'Linköping University'
