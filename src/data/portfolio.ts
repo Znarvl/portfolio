@@ -18,7 +18,7 @@ const data: Iportfolio[] = [
     title: 'University courses',
     imgUrl: '/portfolio/assets/uni_courses.png',
     stack: ['C/C++', 'Python', 'Java', 'R', 'And much more'],
-    link: 'https://github.com/Znarvl/TDDE16_project',
+    link: 'https://github.com/Znarvl/University-courses',
     text: 'Below are the majority of projects I have completed over my 5-years'
   },
   {
