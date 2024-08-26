@@ -4,8 +4,12 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 const SocialMedia: React.FC = () => {
   return (
 <div>
-        <LinkedInIcon onClick={() => { window.location.href = 'https://www.linkedin.com/in/simon-jakobsson-871252144/' }} fontSize="large" />
-        <GitHubIcon onClick={() => { window.location.href = 'https://github.com/Znarvl' }} fontSize="large" />
+<LinkedInIcon
+  onClick={() => {
+    window.open('https://www.linkedin.com/in/simon-jakobsson-871252144/', '_blank')
+  }}
+  fontSize="large" />
+      <GitHubIcon onClick={() => { window.open('https://github.com/Znarvl', '_blank') }} fontSize="large" />
 </div>
 
   )
