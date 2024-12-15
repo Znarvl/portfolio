@@ -17,6 +17,10 @@ const tools: ITools[] = [
     text: 'Node'
   },
   {
+    imgUrl: '/portfolio/assets/dotnet-icon.svg',
+    text: '.NET'
+  },
+  {
     imgUrl: '/portfolio/assets/react.svg',
     text: 'React'
   },
