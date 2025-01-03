@@ -1,10 +1,6 @@
 import type ITools from '../interfaces/ITools'
 const lang: ITools[] = [
   {
-    imgUrl: '/portfolio/assets/C.svg',
-    text: 'Clang'
-  },
-  {
     imgUrl: '/portfolio/assets/C++.svg',
     text: 'C++ 14/17'
   },
@@ -17,16 +13,8 @@ const lang: ITools[] = [
     text: 'Java'
   },
   {
-    imgUrl: '/portfolio/assets/matlab.svg',
-    text: 'Matlab'
-  },
-  {
     imgUrl: '/portfolio/assets/python.svg',
     text: 'Python'
-  },
-  {
-    imgUrl: '/portfolio/assets/Rlogo.svg',
-    text: 'R'
   },
   {
     imgUrl: '/portfolio/assets/square-js.svg',
