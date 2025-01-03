@@ -29,6 +29,14 @@ const tools: ITools[] = [
     text: 'Vue'
   },
   {
+    imgUrl: '/portfolio/assets/icons8-bootstrap.svg',
+    text: 'Bootstrap'
+  },
+  {
+    imgUrl: '/portfolio/assets/tailwind-css-svgrepo-com.svg',
+    text: 'Tailwind'
+  },
+  {
     imgUrl: '/portfolio/assets/icons8-express-js.svg',
     text: 'Express'
   },
@@ -42,23 +50,15 @@ const tools: ITools[] = [
   },
   {
     imgUrl: '/portfolio/assets/icons8-mongodb.svg',
-    text: 'Mongo'
+    text: 'MongoDB'
   },
   {
     imgUrl: '/portfolio/assets/icons8-postgres.svg',
     text: 'Postgres'
   },
   {
-    imgUrl: '/portfolio/assets/pytorch-icon.svg',
-    text: 'Pytorch'
-  },
-  {
     imgUrl: '/portfolio/assets/Godot.svg',
     text: 'Godot'
-  },
-  {
-    imgUrl: '/portfolio/assets/Slurm_logo.svg',
-    text: 'Slurm'
   },
   {
     imgUrl: '/portfolio/assets/pandas.svg',
