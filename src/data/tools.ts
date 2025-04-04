@@ -79,7 +79,7 @@ const tools: ITools[] = [
   {
     imgUrl: '/portfolio/assets/android.svg',
     text: 'Android'
-  },
+  }
 
 ]
 
