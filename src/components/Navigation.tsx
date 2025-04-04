@@ -10,9 +10,9 @@ const Navigation: React.FC = () => {
   return (
     <header className="text-white text-lg font-bold pt-5 flex flex-row-reverse pr-12 md:pr-0">
       <nav className="hidden md:flex flex-row-reverse">
-        <a href="#projects" onClick={(event) => { handleScroll(event, 'portfolio') }} className="mr-4">Projects</a>
-        <a href="#tools" onClick={(event) => { handleScroll(event, 'tools') }} className="mr-4">Tools and Languages</a>
         <a href="#timeline" onClick={(event) => { handleScroll(event, 'timeline') }} className="mr-4">Timeline</a>
+        <a href="#tools" onClick={(event) => { handleScroll(event, 'tools') }} className="mr-4">Tools and Languages</a>
+        <a href="#projects" onClick={(event) => { handleScroll(event, 'portfolio') }} className="mr-4">Projects</a>
       </nav>
     </header>
   )

@@ -71,7 +71,15 @@ const tools: ITools[] = [
   {
     imgUrl: '/portfolio/assets/Scikit.svg',
     text: 'Scikitlearn'
-  }
+  },
+  {
+    imgUrl: '/portfolio/assets/gradle.svg',
+    text: 'Gradle'
+  },
+  {
+    imgUrl: '/portfolio/assets/android.svg',
+    text: 'Android'
+  },
 
 ]
 
