@@ -13,6 +13,10 @@ const lang: ITools[] = [
     text: 'Java'
   },
   {
+    imgUrl: '/portfolio/assets/kotlin.svg',
+    text: 'Kotlin'
+  },
+  {
     imgUrl: '/portfolio/assets/python.svg',
     text: 'Python'
   },

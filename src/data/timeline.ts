@@ -2,16 +2,16 @@ import type ITimeline from '../interfaces/ITimeline'
 
 const timeline: ITimeline[] = [
   {
-    year: 'Mars 2025',
+    year: '2025',
     title: 'Software Engineer',
     duration: 'Ongoing',
-    details: 'Fullstack development with focus on the Android platform',
+    details: 'Android Development with Kotlin and Java, working with Android Studio and Android SDK. Focus on developing applications for the construction industry.',
     at: 'CPAC Systems'
   },
   {
-    year: 'Mars 2024',
+    year: '2024',
     title: 'Software Developer',
-    duration: 'Mars 2025',
+    duration: '1 year',
     details: 'C++ Adaptive AUTOSAR development with focus on DoIP',
     at: 'Vector Sweden'
   },
