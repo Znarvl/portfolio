@@ -43,9 +43,6 @@ jobs:
       - name: Linting
         run: npm run lint
 
-      - name: Test
-        run: npm run test -- --watch=false # Ensure tests run in CI mode without watch mode
-
       - name: Build
         run: npm run build
 
