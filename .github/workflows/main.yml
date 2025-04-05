@@ -1,4 +1,4 @@
-# Simple workflow for deploying static content to GitHub Pages
+# Workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
 on:
@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Single deploy job since we're just deploying
+  # Single deploy job for GitHub Pages
   deploy:
     environment:
       name: github-pages
@@ -30,26 +30,34 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
+
       - name: Install dependencies
-        run: npm install
-      - name: Build
-        run: npm run build
+        run: npm ci # Use `npm ci` for clean installs in CI environments
+
       - name: Linting
         run: npm run lint
+
       - name: Test
-        run: npm run test
+        run: npm run test -- --watch=false # Ensure tests run in CI mode without watch mode
+
+      - name: Build
+        run: npm run build
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload dist repository
+          # Upload the build output directory
           path: './dist'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

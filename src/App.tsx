@@ -1,9 +1,9 @@
-import Footer from './components/Footer'
-import Intro from './components/Intro'
-import Timeline from './components/Timeline'
-import Portfolio from './components/Portfolio'
-import Tools from './components/Tools'
-import Languages from './components/Languages'
+import Footer from "./components/Footer";
+import Intro from "./components/Intro";
+import Timeline from "./components/Timeline";
+import Portfolio from "./components/Portfolio";
+import Tools from "./components/Tools";
+import Languages from "./components/Languages";
 
 const App: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <Timeline />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

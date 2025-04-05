@@ -1,16 +1,16 @@
-import React from 'react'
-import type ITools from '../interfaces/ITools'
+import React from "react";
+import type ITools from "../interfaces/ITools";
 
 const ToolsItem: React.FC<ITools> = ({ imgUrl, text }: ITools) => {
-  const [showTooltip, setShowTooltip] = React.useState(false)
+  const [showTooltip, setShowTooltip] = React.useState(false);
 
   const handleMouseEnter = (): void => {
-    setShowTooltip(true)
-  }
+    setShowTooltip(true);
+  };
 
   const handleMouseLeave = (): void => {
-    setShowTooltip(false)
-  }
+    setShowTooltip(false);
+  };
 
   return (
     <div
@@ -25,7 +25,7 @@ const ToolsItem: React.FC<ITools> = ({ imgUrl, text }: ITools) => {
         </div>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default ToolsItem
+export default ToolsItem;

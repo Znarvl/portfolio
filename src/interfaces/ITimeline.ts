@@ -1,10 +1,11 @@
 interface ITimeline {
-  year: string
-  title: string
-  duration?: string
-  details?: string
-  at?: string
-  url?: string
+  id: number;
+  year: string;
+  title: string;
+  duration?: string;
+  details?: string;
+  at?: string;
+  url?: string;
 }
 
-export default ITimeline
+export default ITimeline;
