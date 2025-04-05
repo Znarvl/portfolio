@@ -1,6 +1,7 @@
 interface ITools {
-  imgUrl: string
-  text: string
+  id: number;
+  imgUrl: string;
+  text: string;
 }
 
-export default ITools
+export default ITools;

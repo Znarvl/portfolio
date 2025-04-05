@@ -1,37 +1,45 @@
-import type ITools from '../interfaces/ITools'
+import type ITools from "../interfaces/ITools";
 const lang: ITools[] = [
   {
-    imgUrl: '/portfolio/assets/C++.svg',
-    text: 'C++ 14/17'
+    id: 0,
+    imgUrl: "/portfolio/assets/C++.svg",
+    text: "C++ 14/17",
   },
   {
-    imgUrl: '/portfolio/assets/cs.svg',
-    text: 'C#'
+    id: 1,
+    imgUrl: "/portfolio/assets/cs.svg",
+    text: "C#",
   },
   {
-    imgUrl: '/portfolio/assets/java.svg',
-    text: 'Java'
+    id: 2,
+    imgUrl: "/portfolio/assets/java.svg",
+    text: "Java",
   },
   {
-    imgUrl: '/portfolio/assets/kotlin.svg',
-    text: 'Kotlin'
+    id: 3,
+    imgUrl: "/portfolio/assets/kotlin.svg",
+    text: "Kotlin",
   },
   {
-    imgUrl: '/portfolio/assets/python.svg',
-    text: 'Python'
+    id: 4,
+    imgUrl: "/portfolio/assets/python.svg",
+    text: "Python",
   },
   {
-    imgUrl: '/portfolio/assets/square-js.svg',
-    text: 'JavaScript'
+    id: 5,
+    imgUrl: "/portfolio/assets/square-js.svg",
+    text: "JavaScript",
   },
   {
-    imgUrl: '/portfolio/assets/Typescript.svg',
-    text: 'TypeScript'
+    id: 6,
+    imgUrl: "/portfolio/assets/Typescript.svg",
+    text: "TypeScript",
   },
   {
-    imgUrl: '/portfolio/assets/sql.svg',
-    text: 'SQL'
-  }
-]
+    id: 7,
+    imgUrl: "/portfolio/assets/sql.svg",
+    text: "SQL",
+  },
+];
 
-export default lang
+export default lang;

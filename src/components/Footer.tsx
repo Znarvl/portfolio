@@ -1,15 +1,14 @@
-import SocialMedia from './SocialMedia'
+import SocialMedia from "./SocialMedia";
 
 const Footer: React.FC = () => {
   return (
-        <div className="py-5 text-center">
-            <div className="text-md mt-2 opacity-50">
-               simme.jakobsson@gmail.com
-               <SocialMedia />
-            </div>
+    <footer className="py-5 text-center">
+      <p className="text-md mt-2 opacity-50">
+        simme.jakobsson@gmail.com
+        <SocialMedia />
+      </p>
+    </footer>
+  );
+};
 
-        </div>
-  )
-}
-
-export default Footer
+export default Footer;

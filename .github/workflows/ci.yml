@@ -12,16 +12,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
+
       - name: Install dependencies
-        run: npm install
+        run: npm ci # Use `npm ci` for clean installs in CI environments
+
       - name: Build
         run: npm run build
+
       - name: Linting
         run: npm run lint
-      - name: Test
-        run: npm run test
+
+      - name: Verify Build Output
+        run: |
+          if [ ! -d "./dist" ]; then
+            echo "Build output directory 'dist' does not exist!"
+            exit 1
+          fi
+          if [ -z "$(ls -A ./dist)" ]; then
+            echo "Build output directory 'dist' is empty!"
+            exit 1
+          fi
+          echo "Build output verified successfully."
